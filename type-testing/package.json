@@ -1,0 +1,19 @@
+{
+  "name": "tree-node-zod-test",
+  "version": "1.0.0",
+  "description": "Test project for recursive TreeNode schema using Zod",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/types.ts",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "zod": "^4.0.14"
+  }
+}
