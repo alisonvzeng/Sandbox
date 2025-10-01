@@ -3,14 +3,15 @@
   "version": "1.0.0",
   "description": "Test project for recursive TreeNode schema using Zod",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "ts-node src/types.ts",
+    "start": "node --loader ts-node/esm src/loop.ts",
     "build": "tsc"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "ts-node": "^10.9.1",
+    "ts-node": "^10.9.2",
     "typescript": "^5.1.6"
   },
   "dependencies": {
